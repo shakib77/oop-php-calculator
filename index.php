@@ -14,7 +14,7 @@
 </head>
 <body>
 
-    <form action="includes/calc.inc.php">
+    <form method="post" action="includes/calc.inc.php">
         <p>My Calculator</p>
         <input type="number" name="num1" placeholder="First number" >
         <select name="oper" >
